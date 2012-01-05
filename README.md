@@ -16,8 +16,7 @@ See: http://www.inspircd.org/forum/showthread.php?t=5592
 Configuration
 =============
 
-The following lines should be appended to `/etc/inspircd/modules.conf` or your
-distributions equivalent.
+The following lines should be appended to `/etc/inspircd/modules.conf`
 
     #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
     # Chat log module: Logs all chats to the ircd log at default loglevel.
