@@ -23,9 +23,9 @@ Check out the latest version of InspIRCd from the repository
 
     git clone git://gitorious.org/inspircd/inspircd.git
 
-Create a local branch for the `v2.0.5` tag and start tracking it
+Create a local branch for the `v2.0.5` tag and checkout into the new branch
 
-    git checkout -b v2.0.5 origin/v2.0.5
+    git checkout -b insp205 v2.0.5
 
 Copy the module to the `inspircd/src/modules/extra/` directory
 
