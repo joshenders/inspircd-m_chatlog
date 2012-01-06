@@ -19,15 +19,15 @@ Building
 This module has been successfully built against InspIRCd v2.0.5. It's likely
 to build against other versions but this hasn't been verified.
 
-Check out the latest version of InspIRCd from the repository
+Clone the latest version of InspIRCd from the repository
 
     git clone git://gitorious.org/inspircd/inspircd.git && pushd inspircd
 
-Create a local branch for the `v2.0.5` tag and checkout into the new branch
+Create a local branch and checkout into the new branch
 
     git checkout -b insp205 v2.0.5
 
-Download the module to the `src/modules/extra/` directory
+Download the module
 
     wget https://raw.github.com/joshenders/inspircd-m_chatlog/master/m_chatlog.cpp -O src/modules/extra/m_chatlog.cpp
 
