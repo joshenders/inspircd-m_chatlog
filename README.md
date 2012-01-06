@@ -9,9 +9,39 @@ Credit
 ======
 
 The original module was written by Daniel Rich <drich@employees.org> and forked
-rather impatiently on github by Josh Enders <josh.enders@gmail.com>.
+on github by Josh Enders <josh.enders@gmail.com>.
 
 See: http://www.inspircd.org/forum/showthread.php?t=5592
+
+Compiling
+=========
+
+This module has been successfully built against InspIRCd v2.0.5. It's likely
+to build against other versions but this hasn't been verified.
+
+Check out the latest version of InspIRCd from gitorious
+
+    git clone git://gitorious.org/inspircd/inspircd.git
+
+Create a local branch for the `v2.0.5` tag and start tracking it
+
+    git checkout -b v2.0.5 origin/v2.0.5
+
+Copy the module to the `inspircd/src/modules/extra/` directory
+
+    cp m_chatlog.cpp inspircd/src/modules/extra/
+
+Enable the module
+
+    ./configure --enable-extras=m_chatlog.cpp
+
+Configure
+
+    ./configure
+
+Compile
+
+    make
 
 Configuration
 =============
