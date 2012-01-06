@@ -29,7 +29,7 @@ Create a local branch and checkout into the new branch
 
 Download the module
 
-    wget https://raw.github.com/joshenders/inspircd-m_chatlog/master/m_chatlog.cpp -O src/modules/extra/m_chatlog.cpp
+    wget -O src/modules/extra/m_chatlog.cpp https://raw.github.com/joshenders/inspircd-m_chatlog/master/m_chatlog.cpp
 
 Enable the module
 
