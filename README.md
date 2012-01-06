@@ -13,13 +13,13 @@ on github by Josh Enders <josh.enders@gmail.com>.
 
 See: http://www.inspircd.org/forum/showthread.php?t=5592
 
-Compiling
+Building
 =========
 
 This module has been successfully built against InspIRCd v2.0.5. It's likely
 to build against other versions but this hasn't been verified.
 
-Check out the latest version of InspIRCd from gitorious
+Check out the latest version of InspIRCd from the repository
 
     git clone git://gitorious.org/inspircd/inspircd.git
 
@@ -39,7 +39,7 @@ Configure
 
     ./configure
 
-Compile
+Build
 
     make
 
