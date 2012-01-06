@@ -25,5 +25,5 @@ The following lines should be appended to `/etc/inspircd/modules.conf`
     #-#-#-#-#-#-#-#-#-# CHATLOG CONFIGURATION #-#-#-#-#-#-#-#-#-#-#-#-#-#
     # There may be certain nicks that you do not want logged for security
     # reasons. Exceptions can be added below.
-    <chatlog exception="nickserv">
-    <chatlog exception="chanserv">
+    #<chatlog exception="nickserv">
+    #<chatlog exception="chanserv">
